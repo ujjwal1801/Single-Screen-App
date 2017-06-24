@@ -1,0 +1,77 @@
+<!--Skyer is owned by Jai Kathuria. All credits go to jaikathuria@live.com -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8EAF6">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp" />
+
+
+
+    <TextView
+        android:text="What is Skyer?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="28sp"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="We here at SKYER, Try our best to serve you the best.
+We produce tutorials with our	best efforts so that learning for you can be made easier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:text="Contact us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="28sp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="email: info@skyer.co.in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Address: 15th Privet Drive, London"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+
+        android:textAlignment="center"/>
+
+</LinearLayout>
+</ScrollView>
